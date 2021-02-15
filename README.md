@@ -40,7 +40,7 @@ data = {
 
 # 本地图片需要转成 base64 码，传入'image'值中
 # import base64
-# with open("C:\\Users\\wonai\\Desktop\\1.jpg","rb") as f:
+# with open("**本地图片位置**","rb") as f:
 #     base64_data = base64.b64encode(f.read())
 # data = {
 #     'image': base64_data,
@@ -51,7 +51,7 @@ data = {
 
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
-    'cookie': '浏览器找一下 cookie'
+    'cookie': '**浏览器找一下 cookie **'
 }
 
 baidu_api_url = 'https://ai.baidu.com/aidemo'
